@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>CardDTO.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">WebhookDTOCatalog</a> &gt; <a href="index.source.html" class="el_package">com.ramosvji.WebhookDTOCatalog.dto.controller</a> &gt; <span class="el_source">CardDTO.java</span></div><h1>CardDTO.java</h1><pre class="source lang-java linenums">package com.ramosvji.WebhookDTOCatalog.dto.controller;
+
+import java.io.Serializable;
+import java.util.List;
+
+<span class="fc" id="L6">public class CardDTO implements Serializable {</span>
+	private static final long serialVersionUID = 1L;
+	
+	private String title;
+	private String subtitle;
+	private String imageUri;
+	private List&lt;ButtonDTO&gt; buttons;
+	
+	public String getTitle() {
+<span class="fc" id="L15">		return title;</span>
+	}
+	
+	public void setTitle(String title) {
+<span class="fc" id="L19">		this.title = title;</span>
+<span class="fc" id="L20">	}</span>
+	
+	public String getSubtitle() {
+<span class="fc" id="L23">		return subtitle;</span>
+	}
+	
+	public void setSubtitle(String subtitle) {
+<span class="fc" id="L27">		this.subtitle = subtitle;</span>
+<span class="fc" id="L28">	}</span>
+	
+	public String getImageUri() {
+<span class="fc" id="L31">		return imageUri;</span>
+	}
+	
+	public void setImageUri(String imageUri) {
+<span class="fc" id="L35">		this.imageUri = imageUri;</span>
+<span class="fc" id="L36">	}</span>
+	
+	public List&lt;ButtonDTO&gt; getButtons() {
+<span class="fc" id="L39">		return buttons;</span>
+	}
+	
+	public void setButtons(List&lt;ButtonDTO&gt; buttons) {
+<span class="fc" id="L43">		this.buttons = buttons;</span>
+<span class="fc" id="L44">	}</span>
+	
+	@Override
+	public String toString() {
+<span class="fc" id="L48">		return &quot;CardDTO [title=&quot; + title + &quot;, subtitle=&quot; + subtitle + &quot;, imageUri=&quot; + imageUri + &quot;, buttons=&quot; + buttons</span>
+<span class="fc" id="L49">				+ &quot;]&quot;;</span>
+	}
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.2.201808211720</span></div></body></html>
