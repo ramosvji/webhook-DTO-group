@@ -1,6 +1,9 @@
-package com.ramosvji.WebhookDTOCatalog.dto.controller;
+package com.ramosvji.WebhookDTOCatalog.dto.controller.v1;
 
 import java.io.Serializable;
+
+import com.ramosvji.WebhookDTOCatalog.dto.controller.OriginalDetectIntentRequestDTO;
+import com.ramosvji.WebhookDTOCatalog.dto.controller.QueryResultDTO;
 
 public class WebhookRequestDTO implements Serializable {
 	private static final long serialVersionUID = 1L;

@@ -8,6 +8,8 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import com.ramosvji.WebhookDTOCatalog.dto.controller.v1.WebhookRequestDTO;
+
 @SpringBootTest
 class WebhookRequestDTOTest {
 	private static final String RESPONSE_ID = "response id";
