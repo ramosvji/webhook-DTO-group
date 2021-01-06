@@ -8,10 +8,12 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import com.ramosvji.WebhookDTOCatalog.intent.IntentEnum;
+
 @SpringBootTest
 public class IntentDTOTest {
 	private static final String NAME = "name";
-	private static final String DISPLAYNAME= "displayName";
+	private static final IntentEnum DISPLAYNAME = IntentEnum.INTENT01;
 	
 	private static IntentDTO intent;
 	

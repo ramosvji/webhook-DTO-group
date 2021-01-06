@@ -2,11 +2,13 @@ package com.ramosvji.WebhookDTOCatalog.dto.controller;
 
 import java.io.Serializable;
 
+import com.ramosvji.WebhookDTOCatalog.intent.IntentEnum;
+
 public class IntentDTO implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
 	private String name;
-	private String displayName;
+	private IntentEnum displayName;
 	
 	public String getName() {
 		return name;
@@ -15,12 +17,12 @@ public class IntentDTO implements Serializable {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
-	public String getDisplayName() {
+
+	public IntentEnum getDisplayName() {
 		return displayName;
 	}
-	
-	public void setDisplayName(String displayName) {
+
+	public void setDisplayName(IntentEnum displayName) {
 		this.displayName = displayName;
 	}
 
